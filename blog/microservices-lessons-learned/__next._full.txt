@@ -1,0 +1,132 @@
+1:"$Sreact.fragment"
+2:I[70119,["/_next/static/chunks/348184844c30d5f6.js"],"default"]
+3:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/_next/static/chunks/5f168ac36d53d156.css","style"]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"5547Ppw5wAEeJvGlRcoPH","c":["","blog","microservices-lessons-learned"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","microservices-lessons-learned","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/5f168ac36d53d156.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/348184844c30d5f6.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","children":["$","body",null,{"className":"inter_5972bc34-module__OU16Qa__className antialiased bg-white","children":[["$","$L2",null,{}],["$","main",null,{"className":"min-h-screen pt-20","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-12","children":["$","div",null,{"className":"container mx-auto px-4 sm:px-6 max-w-6xl","children":["$","div",null,{"className":"flex flex-col md:flex-row justify-between items-center gap-6","children":[["$","div",null,{"className":"text-center md:text-left","children":[["$","p",null,{"className":"text-gray-300 text-lg font-medium mb-2","children":"Tahsin Al Sayeed"}],["$","p",null,{"className":"text-gray-400 text-sm mb-1","children":"Fullstack Python Engineer"}],["$","p",null,{"className":"text-gray-400 text-sm","children":["© ",2025," All rights reserved."]}]]}],["$","div",null,{"className":"flex flex-col items-center gap-4 md:gap-6","children":[["$","div",null,{"className":"text-center text-sm text-gray-400 space-y-1","children":[["$","p",null,{"children":"📍 Dhaka, Bangladesh"}],["$","p",null,{"children":"📧 tahsinalsayeed@gmail.com"}]]}],["$","div",null,{"className":"flex space-x-6","children":[["$","a",null,{"href":"https://github.com","target":"_blank","rel":"noopener noreferrer","className":"text-gray-300 hover:text-white transition-all font-medium hover:scale-110 transform duration-200","children":"GitHub"}],["$","a",null,{"href":"https://linkedin.com","target":"_blank","rel":"noopener noreferrer","className":"text-gray-300 hover:text-white transition-all font-medium hover:scale-110 transform duration-200","children":"LinkedIn"}]]}]]}]]}]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"s":false,"S":true}
+e:I[22016,["/_next/static/chunks/348184844c30d5f6.js"],""]
+f:Tfaf,<h1>Lessons Learned from Building Microservices</h1>
+<p>Microservices architecture promises scalability, flexibility, and independent deployments. But it also introduces complexity. Here are some lessons I've learned from building and maintaining microservices in production.</p>
+<h2>Start with a Monolith</h2>
+<p>Controversial take: don't start with microservices. Build a well-structured monolith first:</p>
+<ul>
+<li>Understand your domain boundaries</li>
+<li>Identify natural service boundaries</li>
+<li>Build organizational readiness</li>
+<li>Establish deployment practices</li>
+</ul>
+<h2>Service Communication</h2>
+<h3>Synchronous vs Asynchronous</h3>
+<p><strong>Synchronous (REST/gRPC)</strong>:</p>
+<ul>
+<li>Good for: user-facing operations, simple request-response</li>
+<li>Bad for: long-running operations, high coupling risk</li>
+</ul>
+<p><strong>Asynchronous (Message Queues)</strong>:</p>
+<ul>
+<li>Good for: event-driven workflows, decoupling services</li>
+<li>Bad for: immediate consistency requirements</li>
+</ul>
+<h2>Data Management</h2>
+<h3>Each Service Owns Its Data</h3>
+<p>Never share databases between services:</p>
+<pre><code class="language-python"># Bad: Direct database access
+def get_user_orders(user_id):
+    user = user_service_db.query(User).get(user_id)
+    orders = order_service_db.query(Order).filter_by(user_id=user_id).all()
+    
+# Good: API calls
+def get_user_orders(user_id):
+    user = user_service_api.get_user(user_id)
+    orders = order_service_api.get_orders(user_id=user_id)
+</code></pre>
+<h3>Handle Distributed Transactions Carefully</h3>
+<p>Use patterns like:</p>
+<ul>
+<li>Saga pattern for distributed transactions</li>
+<li>Event sourcing for audit trails</li>
+<li>Eventual consistency where possible</li>
+</ul>
+<h2>Observability is Critical</h2>
+<p>With distributed systems, you need:</p>
+<h3>Distributed Tracing</h3>
+<ul>
+<li>Track requests across services</li>
+<li>Use correlation IDs</li>
+<li>Tools: Jaeger, Zipkin</li>
+</ul>
+<h3>Centralized Logging</h3>
+<ul>
+<li>Aggregate logs from all services</li>
+<li>Use structured logging</li>
+<li>Tools: ELK Stack, CloudWatch</li>
+</ul>
+<h3>Metrics and Monitoring</h3>
+<ul>
+<li>Service-level metrics</li>
+<li>Business metrics</li>
+<li>Alert on anomalies</li>
+</ul>
+<h2>Service Discovery</h2>
+<p>Don't hardcode service URLs:</p>
+<ul>
+<li>Use service discovery (Consul, AWS Cloud Map)</li>
+<li>Implement health checks</li>
+<li>Handle service failures gracefully</li>
+</ul>
+<h2>API Gateway</h2>
+<p>Use an API gateway for:</p>
+<ul>
+<li>Authentication/Authorization</li>
+<li>Rate limiting</li>
+<li>Request routing</li>
+<li>Protocol translation</li>
+</ul>
+<h2>Deployment Strategy</h2>
+<h3>Independent Deployments</h3>
+<p>Each service should deploy independently:</p>
+<pre><code class="language-yaml"># Kubernetes example
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: user-service
+spec:
+  replicas: 3
+  template:
+    spec:
+      containers:
+      - name: user-service
+        image: user-service:1.2.3
+</code></pre>
+<h3>Blue-Green Deployments</h3>
+<p>Minimize downtime with blue-green or canary deployments.</p>
+<h2>Testing Strategy</h2>
+<p>Testing becomes more complex:</p>
+<ul>
+<li><strong>Unit tests</strong>: Test individual components</li>
+<li><strong>Integration tests</strong>: Test service interactions</li>
+<li><strong>Contract tests</strong>: Verify API contracts</li>
+<li><strong>End-to-end tests</strong>: Test critical user journeys</li>
+</ul>
+<h2>When to Split a Service</h2>
+<p>Consider splitting when:</p>
+<ul>
+<li>Different scaling requirements</li>
+<li>Different teams own different features</li>
+<li>Clear domain boundaries exist</li>
+<li>Independent release cycles needed</li>
+</ul>
+<h2>Conclusion</h2>
+<p>Microservices aren't a silver bullet. They solve specific problems at a cost of increased complexity. Make sure the benefits outweigh the costs for your use case.</p>
+<p>The key is to start simple, measure everything, and evolve your architecture based on real needs, not theoretical benefits.</p>
+5:["$","div",null,{"className":"container mx-auto px-6 py-12","children":["$","article",null,{"className":"max-w-3xl mx-auto","children":[["$","$Le",null,{"href":"/blog","className":"text-blue-600 hover:text-blue-700 mb-8 inline-block","children":"← Back to blog"}],["$","header",null,{"className":"mb-8","children":[["$","time",null,{"className":"text-gray-500 text-sm","children":"2024-10-01"}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-4","children":"Lessons Learned from Building Microservices"}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","span","Microservices",{"className":"text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full","children":"Microservices"}],["$","span","Architecture",{"className":"text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full","children":"Architecture"}],["$","span","Backend",{"className":"text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full","children":"Backend"}],["$","span","AWS",{"className":"text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full","children":"AWS"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none prose-headings:text-gray-900  prose-p:text-gray-700  prose-a:text-blue-600  prose-strong:text-gray-900 prose-code:text-pink-600 prose-code:bg-gray-100 prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-img:rounded-lg prose-img:shadow-lg","dangerouslySetInnerHTML":{"__html":"$f"}}]]}]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+10:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+c:[["$","title","0",{"children":"Tahsin Al Sayeed - Software Engineer"}],["$","meta","1",{"name":"description","content":"Personal portfolio and blog of Tahsin Al Sayeed, a Software Engineer with 6+ years of experience in Python, FastAPI, Django, PostgreSQL, Docker, and AWS"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L10","3",{}]]
+8:null

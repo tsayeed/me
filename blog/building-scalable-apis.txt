@@ -1,0 +1,63 @@
+1:"$Sreact.fragment"
+2:I[70119,["/_next/static/chunks/348184844c30d5f6.js"],"default"]
+3:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/_next/static/chunks/5f168ac36d53d156.css","style"]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"5547Ppw5wAEeJvGlRcoPH","c":["","blog","building-scalable-apis"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","building-scalable-apis","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/5f168ac36d53d156.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/348184844c30d5f6.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","children":["$","body",null,{"className":"inter_5972bc34-module__OU16Qa__className antialiased bg-white","children":[["$","$L2",null,{}],["$","main",null,{"className":"min-h-screen pt-20","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-12","children":["$","div",null,{"className":"container mx-auto px-4 sm:px-6 max-w-6xl","children":["$","div",null,{"className":"flex flex-col md:flex-row justify-between items-center gap-6","children":[["$","div",null,{"className":"text-center md:text-left","children":[["$","p",null,{"className":"text-gray-300 text-lg font-medium mb-2","children":"Tahsin Al Sayeed"}],["$","p",null,{"className":"text-gray-400 text-sm mb-1","children":"Fullstack Python Engineer"}],["$","p",null,{"className":"text-gray-400 text-sm","children":["© ",2025," All rights reserved."]}]]}],["$","div",null,{"className":"flex flex-col items-center gap-4 md:gap-6","children":[["$","div",null,{"className":"text-center text-sm text-gray-400 space-y-1","children":[["$","p",null,{"children":"📍 Dhaka, Bangladesh"}],["$","p",null,{"children":"📧 tahsinalsayeed@gmail.com"}]]}],["$","div",null,{"className":"flex space-x-6","children":[["$","a",null,{"href":"https://github.com","target":"_blank","rel":"noopener noreferrer","className":"text-gray-300 hover:text-white transition-all font-medium hover:scale-110 transform duration-200","children":"GitHub"}],["$","a",null,{"href":"https://linkedin.com","target":"_blank","rel":"noopener noreferrer","className":"text-gray-300 hover:text-white transition-all font-medium hover:scale-110 transform duration-200","children":"LinkedIn"}]]}]]}]]}]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"s":false,"S":true}
+e:I[22016,["/_next/static/chunks/348184844c30d5f6.js"],""]
+f:T7ed,<h1>Building Scalable APIs with Python</h1>
+<p>When building backend systems that need to serve millions of users, scalability becomes a critical concern. In this post, I'll share some key principles and patterns I've learned over 6+ years of backend development.</p>
+<h2>1. Database Optimization</h2>
+<p>One of the most common bottlenecks in API performance is database queries. Here are some strategies:</p>
+<ul>
+<li><strong>Use connection pooling</strong>: Don't create a new database connection for every request</li>
+<li><strong>Implement query optimization</strong>: Use EXPLAIN to analyze slow queries</li>
+<li><strong>Add strategic indexes</strong>: But don't over-index</li>
+<li><strong>Consider read replicas</strong>: Distribute read load across multiple database instances</li>
+</ul>
+<h2>2. Caching Strategy</h2>
+<p>Caching is essential for reducing database load and improving response times:</p>
+<pre><code class="language-python">import redis
+
+cache = redis.Redis(host='localhost', port=6379)
+
+def get_user_data(user_id):
+    # Try cache first
+    cached = cache.get(f'user:{user_id}')
+    if cached:
+        return json.loads(cached)
+    
+    # If not in cache, query database
+    user = db.query(User).filter_by(id=user_id).first()
+    
+    # Store in cache for future requests
+    cache.setex(f'user:{user_id}', 3600, json.dumps(user))
+    return user
+</code></pre>
+<h2>3. Asynchronous Processing</h2>
+<p>Not everything needs to happen in the request-response cycle. Use message queues for:</p>
+<ul>
+<li>Email notifications</li>
+<li>Report generation</li>
+<li>Data processing tasks</li>
+</ul>
+<h2>4. API Rate Limiting</h2>
+<p>Protect your API from abuse with rate limiting:</p>
+<ul>
+<li>Implement per-user rate limits</li>
+<li>Use token bucket algorithm</li>
+<li>Return appropriate HTTP status codes (429 Too Many Requests)</li>
+</ul>
+<h2>Conclusion</h2>
+<p>Building scalable APIs is an iterative process. Start with solid fundamentals, measure performance, and optimize based on real-world usage patterns.</p>
+5:["$","div",null,{"className":"container mx-auto px-6 py-12","children":["$","article",null,{"className":"max-w-3xl mx-auto","children":[["$","$Le",null,{"href":"/blog","className":"text-blue-600 hover:text-blue-700 mb-8 inline-block","children":"← Back to blog"}],["$","header",null,{"className":"mb-8","children":[["$","time",null,{"className":"text-gray-500 text-sm","children":"2024-10-20"}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-4","children":"Building Scalable APIs with Python"}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","span","Python",{"className":"text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full","children":"Python"}],["$","span","API",{"className":"text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full","children":"API"}],["$","span","Backend",{"className":"text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full","children":"Backend"}],["$","span","Scalability",{"className":"text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full","children":"Scalability"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none prose-headings:text-gray-900  prose-p:text-gray-700  prose-a:text-blue-600  prose-strong:text-gray-900 prose-code:text-pink-600 prose-code:bg-gray-100 prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-img:rounded-lg prose-img:shadow-lg","dangerouslySetInnerHTML":{"__html":"$f"}}]]}]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+10:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+c:[["$","title","0",{"children":"Tahsin Al Sayeed - Software Engineer"}],["$","meta","1",{"name":"description","content":"Personal portfolio and blog of Tahsin Al Sayeed, a Software Engineer with 6+ years of experience in Python, FastAPI, Django, PostgreSQL, Docker, and AWS"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L10","3",{}]]
+8:null

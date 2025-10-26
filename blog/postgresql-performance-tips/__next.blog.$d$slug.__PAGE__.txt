@@ -1,0 +1,72 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/348184844c30d5f6.js"],""]
+5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:Ta38,<h1>PostgreSQL Performance Tips for High-Traffic Applications</h1>
+<p>After years of working with PostgreSQL in production environments, I've compiled some of the most impactful optimizations that can dramatically improve database performance.</p>
+<h2>Index Strategy</h2>
+<p>Indexes are your best friend for read-heavy workloads, but they come with trade-offs:</p>
+<h3>B-Tree Indexes</h3>
+<p>The default index type, great for most use cases:</p>
+<pre><code class="language-sql">CREATE INDEX idx_users_email ON users(email);
+</code></pre>
+<h3>Partial Indexes</h3>
+<p>Index only the rows you need:</p>
+<pre><code class="language-sql">CREATE INDEX idx_active_users ON users(email) 
+WHERE active = true;
+</code></pre>
+<h3>Covering Indexes</h3>
+<p>Include additional columns to avoid table lookups:</p>
+<pre><code class="language-sql">CREATE INDEX idx_users_email_name ON users(email) 
+INCLUDE (first_name, last_name);
+</code></pre>
+<h2>Query Optimization</h2>
+<h3>Use EXPLAIN ANALYZE</h3>
+<p>Always analyze your queries before optimizing:</p>
+<pre><code class="language-sql">EXPLAIN ANALYZE
+SELECT * FROM orders 
+WHERE user_id = 123 AND status = 'pending';
+</code></pre>
+<h3>Avoid SELECT *</h3>
+<p>Only fetch the columns you need:</p>
+<pre><code class="language-sql">-- Bad
+SELECT * FROM users WHERE id = 1;
+
+-- Good
+SELECT id, email, first_name FROM users WHERE id = 1;
+</code></pre>
+<h2>Connection Pooling</h2>
+<p>Use a connection pooler like PgBouncer to manage database connections efficiently:</p>
+<ul>
+<li>Reduces connection overhead</li>
+<li>Allows more clients than max_connections</li>
+<li>Different pooling modes for different use cases</li>
+</ul>
+<h2>Vacuuming and Maintenance</h2>
+<p>Regular maintenance is crucial:</p>
+<pre><code class="language-sql">-- Analyze tables for query planner
+ANALYZE users;
+
+-- Reclaim space and update statistics
+VACUUM ANALYZE;
+</code></pre>
+<h2>Configuration Tuning</h2>
+<p>Key PostgreSQL settings to tune based on your hardware:</p>
+<ul>
+<li><code>shared_buffers</code>: 25% of system RAM</li>
+<li><code>effective_cache_size</code>: 50-75% of system RAM</li>
+<li><code>work_mem</code>: Depends on query complexity</li>
+<li><code>max_connections</code>: Keep it reasonable (100-300)</li>
+</ul>
+<h2>Monitoring</h2>
+<p>Use tools like:</p>
+<ul>
+<li>pg_stat_statements for query statistics</li>
+<li>pg_stat_activity for current connections</li>
+<li>pgBadger for log analysis</li>
+</ul>
+<h2>Conclusion</h2>
+<p>PostgreSQL performance tuning is both an art and a science. Start with these fundamentals, monitor your metrics, and iterate based on your specific workload patterns.</p>
+0:{"buildId":"5547Ppw5wAEeJvGlRcoPH","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"container mx-auto px-6 py-12","children":["$","article",null,{"className":"max-w-3xl mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-blue-600 hover:text-blue-700 mb-8 inline-block","children":"← Back to blog"}],["$","header",null,{"className":"mb-8","children":[["$","time",null,{"className":"text-gray-500 text-sm","children":"2024-10-15"}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-4","children":"PostgreSQL Performance Tips for High-Traffic Applications"}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","span","PostgreSQL",{"className":"text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full","children":"PostgreSQL"}],["$","span","Database",{"className":"text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full","children":"Database"}],["$","span","Performance",{"className":"text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full","children":"Performance"}],["$","span","Backend",{"className":"text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full","children":"Backend"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none prose-headings:text-gray-900  prose-p:text-gray-700  prose-a:text-blue-600  prose-strong:text-gray-900 prose-code:text-pink-600 prose-code:bg-gray-100 prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-img:rounded-lg prose-img:shadow-lg","dangerouslySetInnerHTML":{"__html":"$3"}}]]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

@@ -1,0 +1,52 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/348184844c30d5f6.js"],""]
+5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T7ed,<h1>Building Scalable APIs with Python</h1>
+<p>When building backend systems that need to serve millions of users, scalability becomes a critical concern. In this post, I'll share some key principles and patterns I've learned over 6+ years of backend development.</p>
+<h2>1. Database Optimization</h2>
+<p>One of the most common bottlenecks in API performance is database queries. Here are some strategies:</p>
+<ul>
+<li><strong>Use connection pooling</strong>: Don't create a new database connection for every request</li>
+<li><strong>Implement query optimization</strong>: Use EXPLAIN to analyze slow queries</li>
+<li><strong>Add strategic indexes</strong>: But don't over-index</li>
+<li><strong>Consider read replicas</strong>: Distribute read load across multiple database instances</li>
+</ul>
+<h2>2. Caching Strategy</h2>
+<p>Caching is essential for reducing database load and improving response times:</p>
+<pre><code class="language-python">import redis
+
+cache = redis.Redis(host='localhost', port=6379)
+
+def get_user_data(user_id):
+    # Try cache first
+    cached = cache.get(f'user:{user_id}')
+    if cached:
+        return json.loads(cached)
+    
+    # If not in cache, query database
+    user = db.query(User).filter_by(id=user_id).first()
+    
+    # Store in cache for future requests
+    cache.setex(f'user:{user_id}', 3600, json.dumps(user))
+    return user
+</code></pre>
+<h2>3. Asynchronous Processing</h2>
+<p>Not everything needs to happen in the request-response cycle. Use message queues for:</p>
+<ul>
+<li>Email notifications</li>
+<li>Report generation</li>
+<li>Data processing tasks</li>
+</ul>
+<h2>4. API Rate Limiting</h2>
+<p>Protect your API from abuse with rate limiting:</p>
+<ul>
+<li>Implement per-user rate limits</li>
+<li>Use token bucket algorithm</li>
+<li>Return appropriate HTTP status codes (429 Too Many Requests)</li>
+</ul>
+<h2>Conclusion</h2>
+<p>Building scalable APIs is an iterative process. Start with solid fundamentals, measure performance, and optimize based on real-world usage patterns.</p>
+0:{"buildId":"5547Ppw5wAEeJvGlRcoPH","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"container mx-auto px-6 py-12","children":["$","article",null,{"className":"max-w-3xl mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-blue-600 hover:text-blue-700 mb-8 inline-block","children":"← Back to blog"}],["$","header",null,{"className":"mb-8","children":[["$","time",null,{"className":"text-gray-500 text-sm","children":"2024-10-20"}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-4","children":"Building Scalable APIs with Python"}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","span","Python",{"className":"text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full","children":"Python"}],["$","span","API",{"className":"text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full","children":"API"}],["$","span","Backend",{"className":"text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full","children":"Backend"}],["$","span","Scalability",{"className":"text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full","children":"Scalability"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none prose-headings:text-gray-900  prose-p:text-gray-700  prose-a:text-blue-600  prose-strong:text-gray-900 prose-code:text-pink-600 prose-code:bg-gray-100 prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-img:rounded-lg prose-img:shadow-lg","dangerouslySetInnerHTML":{"__html":"$3"}}]]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null
